@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form method="action=">
+    <table border="1"align="center"width="400"bgcolor="sky-blue">
+    <caption >REGISTRATION FORM</caption>
+    <tr>
+    <th>enter your first name:</th>
+    <td><input type="text"name="fn"id="fn1"maxlength="10"title="enter your first placeholder="enter your first name"required/></td>
+    </tr>
+    <tr>
+    <th>enter your middle name:</th>
+    <td><input type="text"></td>
+    </tr>
+    <tr>
+    <th>enter your last name:</th>
+    <td><input type="text"></td></tr>
+    <th>enter your password:</th><td><input type="pwd"/></td></tr>
+    <tr>
+    <th>ReEnter your psw</th>
+    <td><input type="psw"/></td></tr>
+    <tr>
+    <th>enter your email:</th>
+    <td><input type="email"/</td></tr>
+    <tr>
+    <th>enter your mobile:</th>
+    <td><input type="number"/></td></tr><tr><th>enter your address:</th>
+    <td><textarea rows="8"cols="20"></textarea></td></tr>
+    <tr>
+    <th>enter your qualification:</th>
+    <td>btech<input type="radio"name="q"value="btech"/>
+    <td>mtech<input type="radio"name="q"value="mtech"/>
+    <td>cse<input type="radio"name="q"value="cse"/>
+    <td>it<input type="radio"name="q"value="it"/>
+    <td>eee<input type="radio"name="q"value="eee"/></td></tr>
+    <tr>
+    <th>select your gender:</th>
+    <td>male<input type="radio"name="g"value="m"/>
+    <td>female<input type="radio"name="g"value="f"/>
+    <td>other<input type="radio"name="g"value="other"</td></tr>
+    <tr>
+    <th>select your DOB:</th>
+    <td><input type="date"/></td></tr>
+    <tr><td colspan="2"align="center">
+    <input type="SUBMIT"value="save my data"/>
+    <input type="RESET"value="reset data"/></td></tr>
+    </table>
+    </form>
+</body>
+</html>
